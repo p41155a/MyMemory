@@ -12,6 +12,11 @@
 		D47E341122D45B0600ABE606 /* MyMemory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D47E340F22D45B0600ABE606 /* MyMemory.xcdatamodeld */; };
 		D47E341322D45B0700ABE606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D47E341222D45B0700ABE606 /* Assets.xcassets */; };
 		D47E341622D45B0700ABE606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47E341422D45B0700ABE606 /* LaunchScreen.storyboard */; };
+		D47E341E22D46A4A00ABE606 /* MemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47E341D22D46A4A00ABE606 /* MemoListVC.swift */; };
+		D47E342022D46A8100ABE606 /* MemoFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47E341F22D46A8100ABE606 /* MemoFormVC.swift */; };
+		D47E342222D46AA200ABE606 /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47E342122D46AA200ABE606 /* MemoReadVC.swift */; };
+		D47E342422D46B7300ABE606 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47E342322D46B7300ABE606 /* MemoCell.swift */; };
+		D47E342622D46C1900ABE606 /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47E342522D46C1900ABE606 /* MemoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		D47E341222D45B0700ABE606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D47E341522D45B0700ABE606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D47E341722D45B0700ABE606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D47E341D22D46A4A00ABE606 /* MemoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListVC.swift; sourceTree = "<group>"; };
+		D47E341F22D46A8100ABE606 /* MemoFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoFormVC.swift; sourceTree = "<group>"; };
+		D47E342122D46AA200ABE606 /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
+		D47E342322D46B7300ABE606 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		D47E342522D46C1900ABE606 /* MemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,17 @@
 		D47E340722D45B0600ABE606 /* MyMemory */ = {
 			isa = PBXGroup;
 			children = (
+				D47E341F22D46A8100ABE606 /* MemoFormVC.swift */,
 				D47E340822D45B0600ABE606 /* AppDelegate.swift */,
 				D47E340C22D45B0600ABE606 /* Main.storyboard */,
 				D47E341222D45B0700ABE606 /* Assets.xcassets */,
 				D47E341422D45B0700ABE606 /* LaunchScreen.storyboard */,
 				D47E341722D45B0700ABE606 /* Info.plist */,
 				D47E340F22D45B0600ABE606 /* MyMemory.xcdatamodeld */,
+				D47E341D22D46A4A00ABE606 /* MemoListVC.swift */,
+				D47E342122D46AA200ABE606 /* MemoReadVC.swift */,
+				D47E342322D46B7300ABE606 /* MemoCell.swift */,
+				D47E342522D46C1900ABE606 /* MemoData.swift */,
 			);
 			path = MyMemory;
 			sourceTree = "<group>";
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D47E341E22D46A4A00ABE606 /* MemoListVC.swift in Sources */,
+				D47E342222D46AA200ABE606 /* MemoReadVC.swift in Sources */,
 				D47E341122D45B0600ABE606 /* MyMemory.xcdatamodeld in Sources */,
+				D47E342622D46C1900ABE606 /* MemoData.swift in Sources */,
 				D47E340922D45B0600ABE606 /* AppDelegate.swift in Sources */,
+				D47E342022D46A8100ABE606 /* MemoFormVC.swift in Sources */,
+				D47E342422D46B7300ABE606 /* MemoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
